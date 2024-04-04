@@ -1,0 +1,169 @@
+.container {
+    display: flex;
+    background-color: #6499E9;
+    align-items: center;
+    height: 100vh;
+    /* overflow-y: hidden; */
+}
+
+.bannerContainer {
+    width: 70%;
+    height: 100%;
+}
+
+.bannerContainer img {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    /* background-size: cover; */
+}
+
+.formContainer {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    color: #6499E9;
+    text-align: left;
+}
+
+.formField {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+     margin-bottom: 15px; 
+    padding-left: 3rem;
+    text-align: left;
+
+}
+
+.formField label {
+    width: 300px;
+    font-size: 1rem;
+    color: rgb(122, 122, 122);
+}
+
+
+.formField span {
+    text-align: left;
+    color: rgb(255, 0, 0);
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 0.8rem;
+}
+
+.formField input {
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+    padding: 0 10px;
+    transition: all 0.1s ease-in;
+
+}
+
+.formInput {
+    border: solid silver;
+}
+
+.uncompleted {
+    border: solid red;
+}
+
+.formInput:focus,
+.uncompleted:focus {
+    outline: none;
+    border: 1px solid #4a83da;
+    height: 35px;
+
+
+}
+
+.formButtons {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    padding-bottom: 1rem;
+}
+
+.formButtons button {
+    background: #2176f4;
+    border: none;
+
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    transition: all 0.1s ease-in;
+    text-align: center;
+}
+
+.checkBoxContainer {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    transform: scale(1);
+    width: 18px;
+    background-color: #2176f4;
+}
+
+.formField:nth-child(6) label {
+    color: #2176f4;
+}
+
+.formButtons button:hover {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #0466f8;
+}
+
+.formButtons a {
+    text-decoration: none;
+    margin-top: -1px;
+    font-weight: 700;
+    color: #2176f4;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .formContainer {
+        width: 100%;
+        height: 50%;
+    }
+    .formField{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formButtons{
+        width: 50%;
+    }
+
+    .bannerContainer {
+        height: 50%;
+        width: 100%;
+        margin-top: 1rem;
+
+
+    }
+
+}
