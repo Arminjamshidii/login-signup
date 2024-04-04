@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/login-signup/static/css/main.f2078ef1.css",
+    "main.js": "/login-signup/static/js/main.79ccfbc8.js",
+    "static/media/1.jpg": "/login-signup/static/media/1.cc4c24039651128ebaaa.jpg",
+    "index.html": "/login-signup/index.html",
+    "main.f2078ef1.css.map": "/login-signup/static/css/main.f2078ef1.css.map",
+    "main.79ccfbc8.js.map": "/login-signup/static/js/main.79ccfbc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2078ef1.css",
+    "static/js/main.79ccfbc8.js"
+  ]
+}
